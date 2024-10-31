@@ -9,7 +9,9 @@
   --color-text: #4d7a9e;
   --color-light: #fff;
   --color-anchor: #6CAFE4;
-  --font-family: "Baloo 2", sans-serif;
+  --title-font: "Puritan", sans-serif;
+  --header-font: "Expletus Sans", sans-serif;
+  --font-family:"Poppins", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
