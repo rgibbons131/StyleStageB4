@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #3a00ff;
-  --color-primary-alt: #6f6ffd;
-  --color-secondary: #d42257;
-  --color-background: #d2fbf7;
-  --color-text: #412d86;
+  --color-primary: #6CAFE4;
+  --color-primary-alt: #BB3D9D;
+  --color-secondary: #DEC26A;
+  --color-background: #161c20;
+  --color-text: #4d7a9e;
   --color-light: #fff;
-  --color-anchor: #3a00ff;
+  --color-anchor: #6CAFE4;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
