@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 $color-primary: #6CAFE4 !default;
 $color-primary-alt: #BB3D9D !default;
 $color-secondary: #DEC26A !default;
@@ -58,7 +61,8 @@ $font-sizes: (
   }
 
   --color-anchor: #{$link-color};
-  --font-family: "Baloo 2", sans-serif;
+  --font-family: "Puritan", sans-serif;
+  --header-font: "Expletus Sans", sans-serif;
   --font-weight-strong: #{$font-weight-strong};
 
   @each $key, $size in $font-sizes {
