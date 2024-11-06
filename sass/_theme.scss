@@ -7,6 +7,10 @@ $color-primary-alt: #BB3D9D !default;
 $color-secondary: #DEC26A !default;
 $color-background: #161c20 !default;
 
+$font-title: "Puritan", sans-serif;
+$font-header: "Expletus Sans", sans-serif;
+$font-paragraph: "Poppins", sans-serif;
+
 $brand-colors: (
   primary: $color-primary,
   primary-alt: $color-primary-alt,
@@ -73,3 +77,4 @@ $font-sizes: (
 
   --border-radius: #{$border-radius};
 }
+
