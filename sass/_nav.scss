@@ -1,10 +1,13 @@
+
+
 nav {
   display: flex;
-  justify-content: center; /* Center nav content */
-  padding: 20px 10px; /* Space inside to center vertically */
-  margin: 0 100px; /* Responsive space on the right and left */
-  border-top: 2px solid $color-primary-alt;  /* Purple border on top */
-  border-right: 2px solid $color-primary-alt; /* Purple border on right */
+  justify-content: center; 
+  background: $color-background;
+  padding: 20px 10px; 
+  margin: 0 100px; 
+  border-top: 2px solid $color-primary-alt;  
+  border-right: 2px solid $color-primary-alt; 
   border-left: 2px solid $color-primary; /* Blue border on left */
   border-bottom: 2px solid $color-primary; /* Blue border on bottom */
   box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
