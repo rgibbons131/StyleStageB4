@@ -1,6 +1,12 @@
 header {
+  font-family: $font-family;
   display: flex;
-  text-align: center;
+  align-self: center;
+  max-width: 100%;
   width: 100%;
-  background-color: var($color-primary);
+  background-color: $color-primary;
+
+  h1 {
+    font-size: $font-size-h1;
+  }
 }
