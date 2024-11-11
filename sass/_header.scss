@@ -1,12 +1,24 @@
 header {
   font-family: $font-family;
+  justify-content: center;
   display: flex;
-  align-self: center;
   max-width: 100%;
   width: 100%;
   background-color: $color-primary;
 
+  .container {
+    background-color: $color-background;
+    color: white;
+  }
   h1 {
+    background-color: $color-background;
+    color: $color-secondary;
+    text-align: center;
+    text-shadow: 5px 5px $color-primary-alt;
+    align-self: center;
     font-size: $font-size-h1;
+  }
+  .link-github svg {
+    display: none;
   }
 }
