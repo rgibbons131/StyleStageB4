@@ -7,6 +7,9 @@ header {
   background-color: $color-primary;
 
   .container {
+    padding: 150px;
+    border-radius: 100% 100%;
+    border: 5px solid $color-secondary;
     background-color: $color-background;
     color: white;
   }
