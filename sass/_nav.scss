@@ -9,7 +9,7 @@ nav {
     gap: 20px; 
     justify-content: center; 
     background: $color-background;
-    padding: 20px 10em; 
+    padding: 20px 5em; 
     margin: 20px 5em; 
     border-top: 2px solid $color-primary-alt;  
     border-right: 2px solid $color-primary-alt; 
@@ -19,6 +19,8 @@ nav {
     li{
       margin: 0;
       a{
+        font-size: $font-size-h4;
+        font-weight: 600;
         text-transform: uppercase;
         color: white; 
         text-decoration: none;
