@@ -13,7 +13,27 @@
     margin: 10px 0 20px;
     padding: 0 70px 0;
   }
+  article {
+    padding-top: 50px;
+    h2:nth-child(1) {
+      &::after {
+        content: "";
+        display: block;
+        float: right;
+        height: 300px;
+        width: 300px;
+        background-color: $color-background;
+        border: 5px solid $color-secondary;
+        border-radius: 50% 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
   blockquote {
+    clear: both;
     strong {
       display: block;
       text-transform: uppercase;
