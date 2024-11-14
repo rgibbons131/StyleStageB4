@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center; 
+  background: $color-background;
+  color: white;
+  font-family: $font-paragraph;
+  a {
+    color: white; 
+    text-decoration: none;
+  }
+  a:hover { 
+        color: $color-secondary;
+  }
+  path {
+    max-width: 20px;
+  }
+}
