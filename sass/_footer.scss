@@ -5,13 +5,14 @@ footer {
   color: white;
   font-family: $font-paragraph;
   a {
-    color: white; 
+    color: $color-secondary;
     text-decoration: none;
   }
   a:hover { 
-        color: $color-secondary;
+        color: white;
   }
-  path {
+  svg {
     max-width: 20px;
+    color: white;
   }
 }
