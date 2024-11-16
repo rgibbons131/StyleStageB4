@@ -31,7 +31,17 @@
       }
     }
   }
-
+  article .container + .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container ul {
+    display: grid;
+  }
+  ul li {
+    list-style: none;
+    text-align: center;
+  }
   blockquote {
     clear: both;
     strong {
