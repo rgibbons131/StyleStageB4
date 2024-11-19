@@ -13,7 +13,7 @@
     margin: 10px 0 20px;
     padding: 0 70px 0;
   }
-  article {
+  #about {
     padding-top: 50px;
     h2:nth-child(1) {
       &::after {
@@ -33,7 +33,10 @@
   }
   article .container + .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container p:nth-child(2) {
+    grid-column: 2;
   }
   .container ul {
     display: grid;
