@@ -1,3 +1,10 @@
+.skip-link {
+  background-color: $color-background;
+  color: $color-primary;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
 header {
   font-family: $title-font;
   justify-content: center;
