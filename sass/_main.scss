@@ -67,6 +67,7 @@
     color: $color-secondary;
   }
   a {
+    text-decoration: none;
     color: $color-primary-alt;
     &:hover {
       color: white;
