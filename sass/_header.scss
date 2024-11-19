@@ -30,9 +30,15 @@ header {
     text-align: center;
     font-size: 2em;
   }
-  p a {
+  .container p a {
+    color: $color-primary-alt;
+    text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
+  }
+  .container a {
+    text-decoration: none;
+    color: $color-primary;
   }
   svg {
     width: 20px;
