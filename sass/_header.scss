@@ -14,10 +14,9 @@ header {
   background-color: $color-background;
 
   .container {
-    width: 800px;
-    height: 800px;
+    max-width: 100%;
     padding: 100px;
-    border-radius: 100% 100%;
+    border-radius: 100%;
     border: 5px solid $color-secondary;
     background-color: $color-background;
     color: white;
@@ -29,7 +28,7 @@ header {
     text-transform: uppercase;
     text-shadow: 5px 5px $color-primary-alt;
     align-self: center;
-    font-size: 10em;
+    font-size: $font-size-h1;
     line-height: 1em;
   }
   h2 {
