@@ -15,4 +15,8 @@ footer {
     max-width: 20px;
     fill: $color-secondary;
   }
+  .container {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
 }
