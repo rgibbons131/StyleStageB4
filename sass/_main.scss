@@ -30,6 +30,9 @@
         margin-bottom: 50px;
       }
     }
+    section:nth-child(even) h2::after {
+      float: left;
+    }
   }
   // article .container + .container {
   //   display: grid;
