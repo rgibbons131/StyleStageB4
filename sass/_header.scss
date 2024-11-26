@@ -14,13 +14,15 @@ header {
   background-color: $color-background;
 
   .container {
-    max-width: 100%;
+    width: 750px;
+    height: 750px;
     padding: 100px;
     border-radius: 100%;
     border: 5px solid $color-secondary;
     background-color: $color-background;
     color: white;
     justify-items: center;
+    margin-top: 50px;
   }
   h1 {
     color: $color-secondary;
