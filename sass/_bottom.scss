@@ -15,7 +15,7 @@
   align-items: center;
   .container ol {
     padding: 15px 50px 15px 50px;
-    background-color: $color-blueBackground;
+    background-color: $color-primary;
     color: white;
     border: 5px solid $color-secondary;
     width: 450px;
@@ -30,21 +30,36 @@
     color: black;
   }
 }
-
-.profile {
-  text-align: center;
-  font-family: $font-paragraph;
-  ul li {
-    list-style: none;
+aside {
+  line-height: 3em;
+  &.profile {
+    border: 3px solid black;
+    text-align: center;
+    font-family: $font-paragraph;
+    ul li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $color-primary-alt;
+    }
+    a:hover {
+      color: black;
+    }
   }
-}
 
-#styles {
-  text-align: center;
-  ul li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
+  &#styles {
+    border: 3px solid black;
+    text-align: center;
+    ul li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $color-primary-alt;
+    }
+    a:hover {
+      color: black;
+    }
   }
 }

@@ -1,7 +1,7 @@
 .page-footer {
-  margin-top: 200px;
+  // margin-top: 200px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   background: $color-background;
   color: white;
   font-family: $font-paragraph;
@@ -9,16 +9,20 @@
     color: $color-secondary;
     text-decoration: none;
   }
-  a:hover { 
-        color: white;
+  a:hover {
+    color: white;
   }
   svg {
     max-width: 20px;
     fill: $color-secondary;
   }
   .container {
+    align-items: center;
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    p:nth-child(4) {
+      grid-column: 2;
+    }
   }
   ul {
     content: "";
