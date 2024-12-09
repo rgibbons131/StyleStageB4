@@ -65,12 +65,14 @@
       $color-background,
       $color-primary-alt
     );
-    margin-top: -150px;
+    margin-top: -300px;
   }
 
   ul li {
+    font-style: $font-paragraph;
     list-style: none;
     text-align: center;
+    line-height: 2.5em;
   }
   .container ul :nth-child(even) {
     grid-column: 3;
