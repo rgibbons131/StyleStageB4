@@ -1,24 +1,50 @@
 #guidelines {
-    background: white;
+  text-align: center;
+  background: white;
+  color: black;
+  a {
+    color: $color-primary-alt;
+  }
+  a:hover {
     color: black;
-    a {
-        color: $color-primary-alt;
-    }
-    a:hover{
-        color: black;
-    }
+  }
 }
 #contribute {
-    background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .container ol {
+    padding: 15px 50px 15px 50px;
+    background-color: $color-blueBackground;
+    color: white;
+    border: 5px solid $color-secondary;
+    width: 450px;
+  }
+  text-align: center;
+  background: white;
+  color: black;
+  a {
+    color: $color-primary-alt;
+  }
+  a:hover {
     color: black;
-    a {
-        color: $color-primary-alt;
-    }
-    a:hover{
-        color: black;
-    }
+  }
 }
 
-aside {
-    font-family: $font-paragraph;
+.profile {
+  text-align: center;
+  font-family: $font-paragraph;
+  ul li {
+    list-style: none;
+  }
+}
+
+#styles {
+  text-align: center;
+  ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
 }
