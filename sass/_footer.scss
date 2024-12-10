@@ -31,9 +31,12 @@
     float: center;
     height: 300px;
     width: 300px;
-    background-color: $color-background;
+    background-image: linear-gradient(
+      $color-background 50%,
+      $color-primary 50%
+    );
     border: 5px solid $color-secondary;
-    border-radius: 50% 50%;
+    border-radius: 50%;
     margin: 50px;
     padding: 50px;
   }
