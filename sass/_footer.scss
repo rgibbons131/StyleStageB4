@@ -33,7 +33,8 @@
     width: 300px;
     background-image: linear-gradient(
       $color-background 50%,
-      $color-primary 50%
+      $color-primary 50%,
+      $color-primary-alt
     );
     border: 5px solid $color-secondary;
     border-radius: 50%;
