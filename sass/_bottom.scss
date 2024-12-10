@@ -1,12 +1,29 @@
 #guidelines {
-  text-align: center;
+  text-align: left;
   background: white;
   color: black;
+  padding-top: $s2;
   a {
     color: $color-primary-alt;
   }
   a:hover {
     color: black;
+  }
+  h2:nth-child(1) {
+    &::after {
+      margin-top: $s4;
+      content: "";
+      display: block;
+      float: left;
+      height: 300px;
+      width: 300px;
+      background-color: transparent;
+      border: 5px solid $color-primary-alt;
+      border-radius: 50% 50%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: $s4;
+    }
   }
 }
 #contribute {
@@ -15,12 +32,12 @@
   align-items: center;
   .container ol {
     padding: 15px 50px 15px 50px;
-    background-color: $color-primary;
+    background-color: $color-blueBackground;
     color: white;
     border: 5px solid $color-secondary;
     width: 450px;
   }
-  text-align: center;
+  text-align: left;
   background: white;
   color: black;
   a {
@@ -28,6 +45,21 @@
   }
   a:hover {
     color: black;
+  }
+  h2:nth-child(1) {
+    &::after {
+      content: "";
+      display: block;
+      float: right;
+      height: 300px;
+      width: 300px;
+      background-color: transparent;
+      border: 5px solid $color-primary;
+      border-radius: 50% 50%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: $s5;
+    }
   }
 }
 aside {
