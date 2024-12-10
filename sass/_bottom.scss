@@ -11,6 +11,7 @@
   }
   h2:nth-child(1) {
     &::after {
+      margin-top: $s4;
       content: "";
       display: block;
       float: left;
@@ -21,7 +22,7 @@
       border-radius: 50% 50%;
       margin-left: 50px;
       margin-right: 50px;
-      margin-bottom: $s5;
+      margin-bottom: $s4;
     }
   }
 }
@@ -45,12 +46,31 @@
   a:hover {
     color: black;
   }
+  h2:nth-child(1) {
+    &::after {
+      content: "";
+      display: block;
+      float: right;
+      height: 300px;
+      width: 300px;
+      background-color: transparent;
+      border: 5px solid $color-primary;
+      border-radius: 50% 50%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: $s5;
+    }
+  }
 }
 aside {
   line-height: 3em;
   &.profile {
-    border: 3px solid black;
-    text-align: center;
+    display: inline-block;
+    .container {
+      border: 3px solid black;
+    }
+
+    text-align: left;
     font-family: $font-paragraph;
     ul li {
       list-style: none;
@@ -65,6 +85,8 @@ aside {
   }
 
   &#styles {
+    float: right;
+    max-width: 50%;
     border: 3px solid black;
     text-align: left;
     ul li {
