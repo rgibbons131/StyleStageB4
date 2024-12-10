@@ -1,12 +1,28 @@
 #guidelines {
-  text-align: center;
+  text-align: left;
   background: white;
   color: black;
+  padding-top: $s2;
   a {
     color: $color-primary-alt;
   }
   a:hover {
     color: black;
+  }
+  h2:nth-child(1) {
+    &::after {
+      content: "";
+      display: block;
+      float: left;
+      height: 300px;
+      width: 300px;
+      background-color: transparent;
+      border: 5px solid $color-primary-alt;
+      border-radius: 50% 50%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: $s5;
+    }
   }
 }
 #contribute {
