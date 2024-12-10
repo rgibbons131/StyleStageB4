@@ -111,13 +111,12 @@
 #about {
   section:last-of-type p:nth-last-of-type(2) { 
     box-sizing: border-box;
-    padding: 15px 0px;
     width: 100%;
     background-color: $color-blueBackground;
     color: $color-secondary;
     border-top: 5px solid $color-secondary;
     margin: 0;
-    padding: 15px 70px 20px;
+    padding: 25px 50px 0 75px;
 }
   section:last-of-type p:last-of-type { 
     box-sizing: border-box;
@@ -128,5 +127,13 @@
     color: $color-secondary;
     border-bottom: 5px solid $color-secondary;
     margin: 0;
+    padding: 0 50px 25px 75px;
   }
+  ul {
+    border-bottom: 15px solid $color-blueBackground;
+    margin-bottom: 0;
+  }
+}
+#guidelines {
+  border-top: 15px solid $color-blueBackground;
 }
