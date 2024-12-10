@@ -4,6 +4,8 @@
 
 [Read the full guidelines](https://stylestage.dev/guidelines/) to ensure your final styles will be ready for inclusion in the showcase!
 
+## [Our Design for Style Stage:](https://rgibbons131.github.io/StyleStageB4/)
+
 ## To Use
 
 1. Fork or select "Use this Template"
@@ -17,7 +19,9 @@ You may alter anything and everything, but keep in mind that the final styleshee
 > If you change the output stylesheet name, be sure to update the link to it in `index.html`
 
 ### Publish to Github Pages
+
 This starter uses github actions to auto deploy `public` directory to `gh-pages` branch whenever there is a push to `main` branch.
+
 1. Go to repo settings, under Github Pages, select `gh-pages` as source.
 2. Go to https://username.github.io/stylestage-sass to see your published site.
 
