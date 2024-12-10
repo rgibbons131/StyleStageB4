@@ -31,14 +31,23 @@
     float: center;
     height: 300px;
     width: 300px;
-    background-image: linear-gradient(
-      $color-background 50%,
-      $color-primary 50%,
-      $color-primary-alt
-    );
+    background: linear-gradient($color-background 50%, $color-primary 50%);
+    background-size: 200% 200%;
+    animation: gradient-animate 15s infinite linear;
     border: 5px solid $color-secondary;
     border-radius: 50%;
     margin: 50px;
     padding: 50px;
+  }
+  @keyframes gradient-animate {
+    0% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 50% 50%;
+    }
   }
 }
