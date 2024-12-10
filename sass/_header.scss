@@ -30,9 +30,27 @@ header {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 5px 5px $color-primary-alt;
+    animation: text-shadow-animation 20s infinite linear;
     align-self: center;
     font-size: $font-size-h1;
     line-height: 1em;
+  }
+  @keyframes text-shadow-animation {
+    0% {
+      text-shadow: 5px 5px $color-primary-alt;
+    }
+    25% {
+      text-shadow: 5px 5px $color-primary-alt;
+    }
+    50% {
+      text-shadow: 5px 5px $color-primary;
+    }
+    75% {
+      text-shadow: 5px 5px $color-primary-alt;
+    }
+    100% {
+      text-shadow: 5px 5px $color-primary;
+    }
   }
   h2 {
     text-transform: uppercase;
