@@ -15,7 +15,7 @@
   align-items: center;
   .container ol {
     padding: 15px 50px 15px 50px;
-    background-color: $color-primary;
+    background-color: $color-blueBackground;
     color: white;
     border: 5px solid $color-secondary;
     width: 450px;
@@ -50,7 +50,7 @@ aside {
 
   &#styles {
     border: 3px solid black;
-    text-align: center;
+    text-align: left;
     ul li {
       list-style: none;
     }
