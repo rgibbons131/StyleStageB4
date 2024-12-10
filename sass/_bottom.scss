@@ -79,8 +79,12 @@
 aside {
   line-height: 3em;
   &.profile {
-    border: 3px solid black;
-    text-align: center;
+    display: inline-block;
+    .container {
+      border: 3px solid black;
+    }
+
+    text-align: left;
     font-family: $font-paragraph;
     ul li {
       list-style: none;
@@ -95,6 +99,8 @@ aside {
   }
 
   &#styles {
+    float: right;
+    max-width: 50%;
     border: 3px solid black;
     text-align: left;
     ul li {
