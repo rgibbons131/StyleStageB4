@@ -68,16 +68,16 @@
     //   $color-primary-alt
     // );
     margin-top: -300px;
-    &::after { 
+    &::after {
       content: "";
       margin: -200px 0 -300px 0;
       height: 900px;
       width: 375px;
       background-image: linear-gradient(
-      $color-primary-alt,
-      rgba($color-background, 0),
-      rgba($color-background, 0)
-    );
+        $color-primary-alt,
+        rgba($color-background, 0),
+        rgba($color-background, 0)
+      );
     }
   }
 
