@@ -1,9 +1,10 @@
-footer {
-  grid-area: footer;
+#files {
+  text-align: center;
 }
 
 .page-footer {
   // margin-top: 200px;
+  grid-area: footer;
   display: flex;
   justify-content: center;
   background: $color-background;
