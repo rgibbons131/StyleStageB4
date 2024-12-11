@@ -78,12 +78,17 @@
 }
 aside {
   line-height: 3em;
+  color: $color-secondary;
+  background-image: linear-gradient(
+    $color-primary,
+    $color-background,
+    $color-background,
+    $color-background
+  );
   &.profile {
     grid-area: aside1;
     text-align: center;
-    .container {
-      border: 3px solid black;
-    }
+
     font-family: $font-paragraph;
     ul li {
       list-style: none;
@@ -99,7 +104,6 @@ aside {
 
   &#styles {
     grid-area: aside2;
-    border: 3px solid black;
     text-align: center;
     ul li {
       list-style: none;

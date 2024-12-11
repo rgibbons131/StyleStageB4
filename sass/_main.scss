@@ -74,11 +74,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    // background-image: linear-gradient(
-    //   $color-background,
-    //   $color-background,
-    //   $color-primary-alt
-    // );
+
     margin-top: -300px;
     &::after {
       content: "";
