@@ -79,12 +79,11 @@
 aside {
   line-height: 3em;
   &.profile {
-    display: inline-block;
+    grid-area: aside1;
+    text-align: center;
     .container {
       border: 3px solid black;
     }
-
-    text-align: left;
     font-family: $font-paragraph;
     ul li {
       list-style: none;
@@ -99,10 +98,9 @@ aside {
   }
 
   &#styles {
-    float: right;
-    max-width: 50%;
+    grid-area: aside2;
     border: 3px solid black;
-    text-align: left;
+    text-align: center;
     ul li {
       list-style: none;
     }

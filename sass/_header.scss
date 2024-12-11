@@ -6,6 +6,7 @@
   justify-content: center;
 }
 header {
+  grid-area: header;
   font-family: $title-font;
   justify-content: center;
   display: flex;
@@ -72,4 +73,8 @@ header {
     height: 20px;
     fill: $color-secondary;
   }
+}
+
+.skip-link {
+  grid-area: skiplink;
 }
