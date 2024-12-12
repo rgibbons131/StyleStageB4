@@ -1,4 +1,16 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "skiplink skiplink"
+    "nav nav"
+    "main main"
+    "aside1 aside2"
+    "footer footer";
+}
+
 #main {
+  grid-area: main;
   background-color: $color-background;
   color: white;
   font-family: $font-family;
@@ -40,15 +52,11 @@
     align-items: center;
   }
   #about .container + .container p:nth-child(3) {
+    margin-left: 35px;
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 50vw;
+    height: 50vw;
     background-color: $color-background;
-    // background-image: linear-gradient(
-    //   $color-primary,
-    //   $color-background,
-    //   $color-background
-    // );
     justify-self: center;
     align-items: center;
     border: 3px solid $color-secondary;
@@ -62,22 +70,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    // background-image: linear-gradient(
-    //   $color-background,
-    //   $color-background,
-    //   $color-primary-alt
-    // );
+
     margin-top: -300px;
-    &::after { 
+    &::after {
       content: "";
-      margin: -200px 0 -300px 0;
+      margin: -200px 1vw -300px 1vw;
       height: 900px;
-      width: 375px;
+      width: 90%;
       background-image: linear-gradient(
-      $color-primary-alt,
-      rgba($color-background, 0),
-      rgba($color-background, 0)
-    );
+        $color-primary-alt,
+        rgba($color-background, 0),
+        rgba($color-background, 0)
+      );
     }
   }
 
@@ -150,4 +154,10 @@
 }
 #guidelines {
   border-top: 15px solid $color-blueBackground;
+}
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 }

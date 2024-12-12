@@ -1,5 +1,12 @@
+#files {
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
 .page-footer {
   // margin-top: 200px;
+  grid-area: footer;
   display: flex;
   justify-content: center;
   background: $color-background;

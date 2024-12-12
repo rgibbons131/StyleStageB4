@@ -77,21 +77,27 @@
   }
 }
 aside {
+  padding-top: 100px;
   line-height: 3em;
-  &.profile {
-    display: inline-block;
-    .container {
-      border: 3px solid black;
-    }
+  font-family: $font-paragraph;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    $color-background,
+    $color-background
+  );
 
-    text-align: left;
-    font-family: $font-paragraph;
+  &.profile {
+    grid-area: aside1;
+    text-align: center;
+
     ul li {
       list-style: none;
     }
     a {
       text-decoration: none;
-      color: $color-primary-alt;
+      color: $color-secondary;
     }
     a:hover {
       color: black;
@@ -99,19 +105,24 @@ aside {
   }
 
   &#styles {
-    float: right;
-    max-width: 50%;
-    border: 3px solid black;
-    text-align: left;
+    grid-area: aside2;
+    text-align: center;
     ul li {
       list-style: none;
     }
     a {
       text-decoration: none;
-      color: $color-primary-alt;
+      color: $color-secondary;
     }
     a:hover {
       color: black;
     }
+  }
+}
+@media (max-width: 800px) {
+  #styles {
+    background-image: none;
+    background-color: $color-background;
+    padding: 0;
   }
 }

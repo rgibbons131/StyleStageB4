@@ -6,6 +6,7 @@
   justify-content: center;
 }
 header {
+  grid-area: header;
   font-family: $title-font;
   justify-content: center;
   display: flex;
@@ -40,16 +41,16 @@ header {
       text-shadow: 5px 5px $color-primary-alt;
     }
     25% {
-      text-shadow: 5px 5px $color-primary-alt;
+      text-shadow: 5px 5px $color-primary;
     }
     50% {
-      text-shadow: 5px 5px $color-primary;
-    }
-    75% {
       text-shadow: 5px 5px $color-primary-alt;
     }
-    100% {
+    75% {
       text-shadow: 5px 5px $color-primary;
+    }
+    100% {
+      text-shadow: 5px 5px $color-primary-alt;
     }
   }
   h2 {
@@ -72,4 +73,8 @@ header {
     height: 20px;
     fill: $color-secondary;
   }
+}
+
+.skip-link {
+  grid-area: skiplink;
 }
