@@ -78,9 +78,9 @@ body {
     margin-top: -300px;
     &::after {
       content: "";
-      margin: -200px 0 -300px 0;
+      margin: -200px 1vw -300px 1vw;
       height: 900px;
-      width: 375px;
+      width: 90%;
       background-image: linear-gradient(
         $color-primary-alt,
         rgba($color-background, 0),
