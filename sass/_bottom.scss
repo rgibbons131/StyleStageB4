@@ -78,7 +78,8 @@
 }
 aside {
   line-height: 3em;
-  color: $color-secondary;
+  font-family: $font-paragraph;
+  color: white;
   background-image: linear-gradient(
     to bottom,
     $color-primary,
@@ -89,13 +90,12 @@ aside {
     grid-area: aside1;
     text-align: center;
 
-    font-family: $font-paragraph;
     ul li {
       list-style: none;
     }
     a {
       text-decoration: none;
-      color: $color-primary-alt;
+      color: $color-secondary;
     }
     a:hover {
       color: black;
@@ -110,7 +110,7 @@ aside {
     }
     a {
       text-decoration: none;
-      color: $color-primary-alt;
+      color: $color-secondary;
     }
     a:hover {
       color: black;
