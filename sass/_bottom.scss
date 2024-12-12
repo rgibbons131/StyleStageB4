@@ -119,3 +119,10 @@ aside {
     }
   }
 }
+@media (max-width: 800px) {
+  #styles {
+    background-image: none;
+    background-color: $color-background;
+    padding: 0;
+  }
+}
