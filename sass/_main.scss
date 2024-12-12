@@ -159,3 +159,9 @@ body {
 #guidelines {
   border-top: 15px solid $color-blueBackground;
 }
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
