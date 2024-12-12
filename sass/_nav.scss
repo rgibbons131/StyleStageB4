@@ -39,10 +39,13 @@ nav {
 @media (max-width: 800px) {
   nav {
     ul {
-    margin: 0 10px;
+    margin: 25px 10px;
     padding: 15px 5px;
     display: block;
     padding: 25px;
+    li {
+      padding: 5px;
+    }
     }
   }
 }
