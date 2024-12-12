@@ -77,15 +77,17 @@
   }
 }
 aside {
+  padding-top: 100px;
   line-height: 3em;
   font-family: $font-paragraph;
   color: white;
   background-image: linear-gradient(
     to bottom,
-    $color-primary,
+    white,
     $color-background,
     $color-background
   );
+
   &.profile {
     grid-area: aside1;
     text-align: center;
