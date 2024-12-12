@@ -52,15 +52,11 @@ body {
     align-items: center;
   }
   #about .container + .container p:nth-child(3) {
+    margin-left: 35px;
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 50vw;
+    height: 50vw;
     background-color: $color-background;
-    // background-image: linear-gradient(
-    //   $color-primary,
-    //   $color-background,
-    //   $color-background
-    // );
     justify-self: center;
     align-items: center;
     border: 3px solid $color-secondary;
