@@ -321,7 +321,7 @@ header svg {
   height: 300px;
   width: 300px;
   background: linear-gradient(#161c20 50%, #6cafe4 50%);
-  background-size: 150% 150%;
+  background-size: 200% 200%;
   animation: gradient-animate 15s infinite linear;
   border: 5px solid #dec26a;
   border-radius: 50%;
@@ -333,7 +333,7 @@ header svg {
     background-position: 50% 50%;
   }
   50% {
-    background-position: 0% 25%;
+    background-position: 0% 0%;
   }
   100% {
     background-position: 50% 50%;
