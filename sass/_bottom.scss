@@ -84,6 +84,7 @@ aside {
   background-image: linear-gradient(
     to bottom,
     white,
+    $color-primary 25%,
     $color-background,
     $color-background
   );
